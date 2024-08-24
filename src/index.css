@@ -1,0 +1,318 @@
+body {
+   background-image: url(./images/Blue-Backgrounds-HD.jpg);
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+}
+
+html,
+body {
+   overflow-x: hidden;
+   max-width: 100%;
+   height: 100%;
+}
+
+.counter {
+   background-color: #1761ba;
+   opacity: 1;
+   border-radius: 95px;
+   outline-color: #1d0098;
+   outline-width: thin;
+   outline-style: solid;
+   color: #09008a;
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.79);
+}
+
+.card {
+   width: 30rem;
+   margin: 62px 435px 54px 435px;
+   border-radius: 22px;
+   background-color: #65abff;
+   opacity: 0.8;
+   border-color: #02026c;
+}
+
+.card-body {
+   border: 2px solid black;
+   padding: 35px 25px;
+   border-radius: 22px;
+   border-color: #02026c;
+}
+
+.card-Num {
+   margin: 50px 0px;
+   font-size: 70px;
+   font-family: fangsong;
+}
+
+.card-title {
+   font-size: 42px;
+   font-weight: bold;
+   font-family: emoji;
+   margin-bottom: 15px;
+   color: #000056;
+}
+
+.buttons {
+   width: 205px;
+}
+
+.btn-container {
+   display: flex;
+   justify-content: center;
+   gap: 9px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.btn-primary {
+   width: 195px;
+   height: 62px;
+   background-color: #1761ba;
+   opacity: 1;
+   font-weight: bold;
+   border-radius: 95px;
+   outline-color: #1d0098;
+   outline-width: thin;
+   outline-style: solid;
+   color: #99f2f7;
+   font-size: 18px;
+}
+
+.reset:hover {
+   background-color: red !important;
+   opacity: 0.8;
+   outline-color: #000000;
+   outline-width: thin;
+   outline-style: solid;
+   color: #ffffff;
+   font-size: 19px;
+}
+
+.reset:active {
+   opacity: 1;
+   outline-width: medium;
+   color: #ffc4c4;
+   font-size: 18px;
+}
+
+.remove:hover {
+   background-color: orange !important;
+   opacity: 0.8;
+   outline-color: #000000;
+   outline-width: thin;
+   outline-style: solid;
+   color: #ffffff;
+   font-size: 19px;
+}
+
+.remove:active {
+   opacity: 1;
+   outline-width: medium;
+   color: rgb(255, 225, 170);
+   font-size: 18px;
+}
+
+.add:hover {
+   background-color: rgb(76, 163, 4) !important;
+   opacity: 0.8;
+   outline-color: #000000;
+   outline-width: thin;
+   outline-style: solid;
+   color: #ffffff;
+   font-size: 19px;
+}
+
+.add:active {
+   opacity: 1;
+   outline-width: medium;
+   color: rgb(215, 255, 182);
+   font-size: 18px;
+}
+
+.card-text {
+   font-size: 13px;
+   margin-top: 7px;
+   color: red;
+}
+
+.reset-Btn {
+   display: flex;
+   justify-content: center;
+}
+
+
+/* Responsivness At 768px */
+
+@media (max-width: 768px) {
+
+   html,
+   body {
+      overflow-x: hidden;
+      max-width: 100%;
+      height: 100%;
+   }
+
+   .card {
+      margin: 62px 144px 54px 144px;
+   }
+
+}
+
+
+/* Responsivness At 480px */
+
+@media (max-width: 480px) {
+
+   html,
+   body {
+      overflow-x: hidden;
+      max-width: 100%;
+      height: 100%;
+   }
+
+   .card {
+      width: 28rem;
+      margin: 62px 16px 54px 16px;
+   }
+
+   .card-title {
+      font-size: 39px;
+   }
+
+   .card-text {
+      font-size: 12px;
+   }
+
+}
+
+
+/* Responsivness At 425px */
+
+@media (max-width: 425px) {
+
+   html,
+   body {
+      overflow-x: hidden;
+      max-width: 100%;
+      height: 100%;
+   }
+
+   .card {
+      width: 25rem;
+      margin: 62px 13px 54px 12px;
+   }
+
+   .card-title {
+      font-size: 34px;
+   }
+
+   .card-Num {
+      margin: 40px 0px;
+        font-size: 60px;
+   }
+
+   .btn-container {
+        margin-bottom: 20px;
+   }
+
+   .btn-primary {
+      width: 155px;
+      height: 60px;
+      font-size: 17px;
+   }
+
+}
+
+
+/* Responsivness At 375px */
+
+@media (max-width: 375px) {
+
+   html,
+   body {
+      overflow-x: hidden;
+      max-width: 100%;
+      height: 100%;
+   }
+
+   .card {
+      width: 22rem;
+      margin: 62px 12px 54px 12px;
+      border-radius: 18px;
+   }
+
+   .card-title {
+      font-size: 29px;
+
+   }
+
+   .card-Num {
+      margin: 37px 0px;
+      font-size: 55px;
+   }
+
+   .btn-container {
+        margin-bottom: 20px;
+   }
+
+   .btn-primary {
+      width: 132px;
+      height: 58px;
+      font-size: 15px;
+   }
+
+   .card-text {
+      font-size: 10px;
+   }
+
+   .card-body {
+      border-radius: 17px;
+   }
+
+} 
+
+
+
+/* Responsivness At 320px */
+
+@media (max-width: 320px) {
+
+   html,
+   body {
+      overflow-x: hidden;
+      max-width: 100%;
+      height: 100%;
+   }
+
+
+   .card {
+      width: 19rem;
+      margin: 62px 8px 54px 8px;
+   }
+
+   .card-title {
+      font-size: 24px;
+
+   }
+
+   .card-Num {
+      margin: 30px 0px;
+      font-size: 53px;
+   }
+
+   .btn-container {
+        margin-bottom: 14px;
+   }
+
+   .btn-primary {
+      width: 112px;
+      height: 54px;
+      font-size: 13px;
+   }
+
+   .card-text {
+      font-size: 10px;
+   }
+
+   
+}
