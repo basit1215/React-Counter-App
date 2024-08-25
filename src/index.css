@@ -24,7 +24,7 @@ body {
 
 .card {
    width: 30rem;
-   margin: 62px 435px 54px 435px;
+   margin: 58px 435px 52px 435px;
    border-radius: 22px;
    background-color: #65abff;
    opacity: 0.8;
@@ -221,6 +221,30 @@ body {
       font-size: 17px;
    }
 
+   .reset:hover {
+      font-size: 18px;
+   }
+   
+   .reset:active {
+      font-size: 17px;
+   }
+   
+   .remove:hover {
+      font-size: 18px;
+   }
+   
+   .remove:active {
+      font-size: 17px;
+   }
+   
+   .add:hover {
+      font-size: 18px;
+   }
+   
+   .add:active {
+      font-size: 17px;
+   }
+
 }
 
 
@@ -269,6 +293,30 @@ body {
       border-radius: 17px;
    }
 
+   .reset:hover {
+      font-size: 16px;
+   }
+   
+   .reset:active {
+      font-size: 15px;
+   }
+   
+   .remove:hover {
+      font-size: 16px;
+   }
+   
+   .remove:active {
+      font-size: 15px;
+   }
+   
+   .add:hover {
+      font-size: 16px;
+   }
+   
+   .add:active {
+      font-size: 15px;
+   }
+
 } 
 
 
@@ -314,5 +362,28 @@ body {
       font-size: 10px;
    }
 
+   .reset:hover {
+      font-size: 14px;
+   }
+   
+   .reset:active {
+      font-size: 13px;
+   }
+   
+   .remove:hover {
+      font-size: 14px;
+   }
+   
+   .remove:active {
+      font-size: 13px;
+   }
+   
+   .add:hover {
+      font-size: 14px;
+   }
+   
+   .add:active {
+      font-size: 13px;
+   }
    
 }
