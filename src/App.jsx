@@ -1,8 +1,9 @@
 import { useState } from "react";
+import Swal from 'sweetalert2';
 
 function App() {
 
-  let [num, setNum] = useState(0);
+  const [num, setNum] = useState(0);
 
   function addDurood() {
     setNum(num + 1);
@@ -10,28 +11,21 @@ function App() {
   }
 
   function removeDurood() {
-
     if (num === 0) {
-      alert("Already Durood Sharif is 0");
-    }
-    else {
+      Swal.fire("Already Durood Sharif is 0");
+    } else {
       setNum(num - 1);
     }
-
     console.log(num);
   }
 
   function ResetBtn() {
-
     if (num === 0) {
-      alert("Already Durood Sharif is 0");
-    }
-    else {
+      Swal.fire("Already Durood Sharif is 0");
+    } else {
       setNum(0);
     }
-
     console.log(num);
-
   }
 
   return (
